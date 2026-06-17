@@ -23,6 +23,7 @@ def main():
         pygame.display.flip()
         log_state()
         dt = clock.tick(60) /1000
+        player.update(dt)
         
 
 
